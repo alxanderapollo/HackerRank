@@ -35,3 +35,12 @@ def jumpingOnClouds(c,skip = 1):
                 
 myList = [0,0,0,0,1,0]
 print( jumpingOnClouds(myList))
+
+
+import sys
+for line in sys.stdin:
+    myint = type(int(line)) * type(int(line)) 
+    print(line)
+    print(myint)
+
+ 
